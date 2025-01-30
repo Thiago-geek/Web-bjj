@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 14vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.logo-bjj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-ul {
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: thistle;
+    font-size: 1.2rem;
+    transition: 0.3s ease all;
+}
+
+a:hover {
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button {
+    background-color: cadetblue;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
